@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+body{
+    background-color: #101820FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#content{
+    position: absolute;
+    top:20%;
+}
+
+#content #wolf{
+    margin-left:30%;
+    
+}
+
+#content #title{
+    font-size: 4rem;
+}
+
+#content #title .yellow{
+color:#FEE715FF 
+}
+
+#content #title #white{
+color:#f4f4f6
+}
+
+
+
+#content #search{
+    position: relative;
+}
+#content #search #searchBar{
+    width: 700px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 20px 80px;
+    font-size: 1.5rem;
+    border: none;
+}
+#content #search #searchButton{
+    background-color: #fff;
+    border: none;
+    padding-left: 20px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+
+
+
+#content #search #wolfLogo{
+    position: absolute;
+    top: 8%;
+    left: 4%;
+}

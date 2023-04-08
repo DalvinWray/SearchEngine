@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#head #headerContainer{
+    background-color:#101820FF  ;
+    border-bottom: 4px solid #FEE715FF ;
+    text-align: center;
+    position:relative;
+    padding:10px;
+    margin-bottom: 70px;
+    
+
+}
+
+
+#head #headerContainer #wolfResultLogoLeft{
+    position:absolute;
+    top:20%;
+    left:20%;
+}
+
+#head #headerContainer #wolfResultLogoRight{
+    position:absolute;
+    bottom:20%;
+    right:20%;
+}
+
+
+#detailedResultArea{
+    padding:0 15%;
+}
+
+
+#head #headerContainer #resultTitle .yellow{
+    color:#FEE715FF; 
+    font-weight: 200;
+}
+    
+#head #headerContainer #resultTitle .white{
+    color:#f4f4f6;
+    font-weight: 200;
+}
+
+
+#detailedResultArea .detailResult .name{
+    text-align: center;
+    font-weight: 100;
+    font-size: 2rem;
+    border-bottom:5px solid #FEE715FF ;
+    margin-bottom: 20px;
+}
+
+#detailedResultArea .detailResult h3{
+    font-weight: 100;
+    margin:5px;
+    margin-left: 25px;
+
+}
+
+#detailedResultArea .detailResult .descriptionTitle{
+    text-align:center;
+    margin: 10px 0;
+    text-decoration: underline #FEE715FF ;
+    font-size: 1.6rem;
+}
+
+
+#detailedResultArea .detailResult .descriptionDetails{
+    margin: 0 25px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+
+

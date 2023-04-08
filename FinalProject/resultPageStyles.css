@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#head #headerContainer{
+    background-color:#101820FF  ;
+    border-bottom: 4px solid #FEE715FF ;
+    text-align: center;
+    position:relative;
+    padding:10px;
+    margin-bottom: 70px;
+    
+
+}
+
+
+#head #headerContainer #wolfResultLogoLeft{
+    position:absolute;
+    top:20%;
+    left:20%;
+}
+
+#head #headerContainer #wolfResultLogoRight{
+    position:absolute;
+    bottom:20%;
+    right:20%;
+}
+
+
+#head #headerContainer #resultTitle .yellow{
+    color:#FEE715FF; 
+    font-weight: 200;
+}
+    
+#head #headerContainer #resultTitle .white{
+    color:#f4f4f6;
+    font-weight: 200;
+}
+    
+#resultArea{
+    padding:0 15%;
+}
+
+
+#resultArea #resultTotal{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+
+
+#resultArea .result{
+    border-bottom: 1px solid #FEE715FF;
+    margin-bottom:30px;
+    
+}
+
+
+
+#resultArea .result .name{
+    margin-bottom: 5px;
+    font-weight: 100;
+    border: none;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    color:blue ;
+    border-bottom: 3px solid blue;
+
+}
+
+#resultArea .result .minorDetails{
+    margin-left: 50px;
+}
+
