@@ -111,46 +111,7 @@ insert into Anime (AnimeName,YearCreated,NumberofEpisodes,AnimeDescription,Anime
 );
 
 
-insert into Pets (PetName, PetSpecies, PetYOB,PetDescription)values
-(
-	"Tippy",
-    "Dog",
-    "2010",
-    "Tippy was an amazing pet, she was truly the embodiment of how a Dog should act. When I was smaller she and I would
-    always play football and fetch together. We were inseperable. Sadly she died a few years after I began Highschool at 10 human years."
-),
 
-(
-"Survivor",
-"Dog",
-"2018",
-"Survivor as her name suggests was a fighter, she was vicious when neccessary and quite tame otherwise. 
-She gave birth to three puppies before she died
-Kong, King and Kat."
-),
-
-(
-"Kong",
-"Dog",
-"2020",
-"Kong named after the gorilla was a huge dog, he was always playful. Infact he and his sister, 
-Kat would always be playing. Sadly he also died."
-),
-(
-"King",
-"Dog",
-"2020",
-"Named after the first part of the Gorilla's name that his twin brother Kong was named after was also a huge dog,
-A few weeks after he was born he was given to someone. King is still alive today"
-),
-(
-"Kat",
-"Dog",
-"2020",
-"Kat is an extremely weird name for a Dog I know. However she walks like a cat and acts like a cat all that is left is for her
-to talk like a cat, so she received the name Kat with a K instead of a C. She is just as playful as her brother only thing is she jumps 
-up on everyone. Sadly she also passed away."
-);
 
 insert into Courses(CourseCode,CourseName,Semester,CourseDescription) values
 (
